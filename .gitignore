@@ -1,0 +1,6 @@
+# Packages that npm install downloads. They never go into Git.
+node_modules/
+
+# Files that macOS and Windows create on their own
+.DS_Store
+Thumbs.db
