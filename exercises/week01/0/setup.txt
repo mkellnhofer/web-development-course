@@ -1,0 +1,3 @@
+Exercise 0, task 2d: replace ______ with the output of "git --version".
+
+Git version: ______

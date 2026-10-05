@@ -1,0 +1,12 @@
+{
+  "name": "wd-week01-0",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 0 — your first served page. Runs a small static server for local preview.",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
