@@ -1,0 +1,12 @@
+{
+  "name": "wd-week01-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 1 — a small page to watch in the Network tab. Runs a small static server for local preview.",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

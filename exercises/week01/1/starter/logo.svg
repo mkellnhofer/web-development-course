@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Web Development logo">
+  <rect width="72" height="72" rx="16" fill="#14161b" />
+  <text x="14" y="46" font-family="'IBM Plex Mono', monospace" font-size="30" font-weight="600" fill="#ff5a36">&lt;</text>
+  <text x="30" y="46" font-family="'IBM Plex Mono', monospace" font-size="30" font-weight="600" fill="#ffffff">/</text>
+  <text x="46" y="46" font-family="'IBM Plex Mono', monospace" font-size="30" font-weight="600" fill="#ff5a36">&gt;</text>
+</svg>
