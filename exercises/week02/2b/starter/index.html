@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration — Block 2b</title>
+  </head>
+  <body>
+    <h1>Create your account</h1>
+
+    <!--
+      Build a registration form below, following ../README.md.
+
+      • The first field (email) is done for you as a PATTERN — copy its shape:
+        a <label> paired to an <input> via matching for / id, plus a name and validation.
+      • method="get" is set on purpose: after you submit, your data shows up in the URL,
+        so you can SEE exactly what the form sends (Block 1, live).
+      • Each field sits in its own <div> just so the fields stack on separate lines —
+        we have no CSS yet. (A layout wrapper is a fine use of <div>.)
+    -->
+    <form method="get">
+      <fieldset>
+        <legend>Account</legend>
+
+        <!-- ✅ Example field — label + input, linked by for/id, with a name and validation -->
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+
+        <!-- TODO: "username" — a text field, required, minlength 3, maxlength 20 -->
+
+        <!-- TODO: "password" — type password, required, minlength 8 -->
+
+        <!-- TODO: "age" — a number field, min 16, max 120 -->
+
+        <!-- TODO: "birthday" — a date field -->
+
+        <!-- TODO: "country" — a <select> dropdown with a few <option>s -->
+
+        <!-- TODO: "plan" — two radio buttons (free / pro) that SHARE the same name -->
+
+        <!-- TODO: "terms" — a required checkbox: "I accept the terms" -->
+      </fieldset>
+
+      <button>Sign up</button>
+    </form>
+  </body>
+</html>
