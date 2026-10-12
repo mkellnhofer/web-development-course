@@ -1,0 +1,12 @@
+{
+  "name": "wd-week02-2a",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 2a — your first HTML page. Runs a small static server for local preview.",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
