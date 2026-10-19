@@ -1,0 +1,32 @@
+/* Block 3b — cascade & box model.
+   Everything you need is here; follow ../README.md. */
+
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
+
+/* ---- Part 1: three rules, one paragraph (a ready-made conflict) ---- */
+p       { color: black; }
+.lead   { color: gray;  }
+#intro  { color: blue;  }
+
+/* Task 1: predict the paragraph's colour, then check in the browser.
+   Task 2: make GRAY (.lead) win — WITHOUT deleting the #intro rule. */
+
+
+/* ---- Part 2: a box to measure ---- */
+.box {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+
+  /* Task 3: how wide is this box on screen? Measure it in dev tools. */
+  /* Task 4: add   box-sizing: border-box;   and measure again. */
+}
+
+
+/* ---- Part 3: inheritance ---- */
+/* Task 5: add the body rules from README.md below, and watch which one
+   the box picks up. */
