@@ -1,0 +1,12 @@
+{
+  "name": "wd-week03-3c",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 3c — colour, type & spacing system. Runs a small static server for local preview.",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

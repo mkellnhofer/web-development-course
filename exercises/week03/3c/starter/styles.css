@@ -1,0 +1,28 @@
+/* Block 3c — build a colour & type SYSTEM with CSS variables.
+   Fill in :root with tokens, then use var(--…) everywhere below.
+   Follow ../README.md. */
+
+:root {
+  /* TODO (Task 1) — colours */
+  /* --color-text:  #14161b; */
+  /* --color-muted: #6b7280; */
+  /* --color-brand: #3a34d6; */
+  /* --color-bg:    #ffffff; */
+  /* --color-card:  #f2f3fb; */
+
+  /* TODO (Task 1) — one spacing step (build the rest as multiples) */
+  /* --space: 1rem; */
+
+  /* TODO (Task 1) — base font stack (remember the generic fallback!) */
+  /* --font: system-ui, -apple-system, "Segoe UI", sans-serif; */
+}
+
+/* TODO (Task 2) — base: apply --font, --color-text, --color-bg to <body>,
+   and a readable line-height. */
+
+/* TODO (Task 3) — a type scale in rem: h1, h2, h3, p. */
+
+/* TODO (Task 4) — spacing from your scale: margins between sections,
+   padding inside .card, and a max-width so lines aren't too long. */
+
+/* TODO (Task 4) — style .lead and .card using your tokens. */
