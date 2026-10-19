@@ -1,0 +1,21 @@
+/* styles.css — Block 3a
+   One example rule is done for you. Add the rest, following ../README.md.
+   Stick to the properties from the lecture: color, background-color,
+   font-family, font-size, font-weight, text-align. (Spacing comes in Block 3c.) */
+
+/* ✅ Example — a TYPE selector setting the page font */
+body {
+  font-family: system-ui, sans-serif;
+}
+
+/* TODO (Task 2): give <body> a background-color and text color */
+
+/* TODO (Task 2): center the main heading — h1 { text-align: ... } */
+
+/* TODO (Task 3): style the .card sections (e.g. a background-color) */
+
+/* TODO (Task 3): make the .lead paragraph stand out (font-size, font-weight) */
+
+/* TODO (Task 3): give the .note tip its own look */
+
+/* TODO (Task 4): use an id selector (#about or #skills) to style ONE section */
