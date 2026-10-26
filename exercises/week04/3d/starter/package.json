@@ -1,0 +1,12 @@
+{
+  "name": "wd-week04-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 3d — responsive layout. Runs a small static server for local preview.",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

@@ -1,0 +1,56 @@
+/* Block 3d — responsive layout.
+   The base look is done. Add the LAYOUT (positioning, flex, media queries) per ../README.md. */
+
+/* ---- base look (given) ---- */
+*, *::before, *::after { box-sizing: border-box; }   /* from Block 3b */
+
+body { font-family: system-ui, sans-serif; margin: 0; color: #14161b; }
+main { max-width: 60rem; margin: 0 auto; padding: 1rem; }
+
+.nav   { background: #14161b; color: #fff; padding: 1rem; }
+.nav a { color: #fff; text-decoration: none; }
+.logo  { font-family: monospace; font-weight: 600; }
+
+.card {
+  background: #f2f3fb;
+  border: 1px solid #e4e6ef;
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+.card h2 { margin-top: 0; }
+
+.badge {
+  background: #d9480f;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+
+
+/* ---- TODO: your layout goes below ---- */
+
+/* Task 1 — make .nav stick to the top while you scroll (position: sticky; top: 0).
+   Pin the .badge to the top-right corner of its card (position: absolute),
+   and make .card its anchor (position: relative).
+   Scroll: if the badge slides over the nav, give .nav a z-index. */
+
+
+/* Task 2 — make .nav a FLEX row: logo on the left, links on the right
+   (justify-content: space-between), vertically centered (align-items: center).
+   Also make .nav-links a flex row with a gap, and remove the list bullets
+   (list-style: none; padding: 0; margin: 0;). */
+
+
+/* Task 3 — make .cards a flex row that WRAPS, with a gap.
+   Give each .card flex: 1 1 30%; so three cards fit in a row. */
+
+
+/* Task 4 — mobile-first: one card per row as the base (flex: 1 1 100%),
+   then @media breakpoints for 2 cards (flex-basis: 40%) and 3 cards (flex-basis: 30%)
+   as the screen gets wider. */
+
+
+/* Task 5 — replace the Task-4 rules with a single line:
+   .card { flex: 1 1 200px; } */
