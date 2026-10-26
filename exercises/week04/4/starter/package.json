@@ -1,0 +1,12 @@
+{
+  "name": "wd-week04-4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 4 — rebuild with Bootstrap. Runs a small static server for local preview.",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

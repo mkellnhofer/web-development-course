@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registration — Block 4</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- The registration form from Block 2b. Bootstrap is already linked.
+         Style it with Bootstrap's form classes (Task 6) — no CSS file needed. -->
+
+    <!-- TODO (Task 6): a .container, and a narrow centered column for the form -->
+    <main>
+      <h1>Create your account</h1>
+
+      <form method="get">
+        <fieldset>
+          <legend>Account</legend>
+
+          <!-- TODO (Task 6): form-label, form-control / form-select, and mb-3 on each <div> -->
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+
+          <div>
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text"
+                   required minlength="3" maxlength="20" />
+          </div>
+
+          <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" required minlength="8" />
+          </div>
+
+          <div>
+            <label for="age">Age</label>
+            <input id="age" name="age" type="number" min="16" max="120" />
+          </div>
+
+          <div>
+            <label for="birthday">Birthday</label>
+            <input id="birthday" name="birthday" type="date" />
+          </div>
+
+          <div>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="de">Germany</option>
+              <option value="at">Austria</option>
+              <option value="ch">Switzerland</option>
+            </select>
+          </div>
+
+          <!-- TODO (Task 6): radios and checkboxes use form-check, not form-control -->
+          <fieldset>
+            <legend>Plan</legend>
+            <div>
+              <input id="plan-free" name="plan" type="radio" value="free" checked />
+              <label for="plan-free">Free</label>
+            </div>
+            <div>
+              <input id="plan-pro" name="plan" type="radio" value="pro" />
+              <label for="plan-pro">Pro</label>
+            </div>
+          </fieldset>
+
+          <div>
+            <input id="terms" name="terms" type="checkbox" required />
+            <label for="terms">I accept the terms</label>
+          </div>
+        </fieldset>
+
+        <!-- TODO (Task 6): a Bootstrap button -->
+        <button>Sign up</button>
+      </form>
+    </main>
+  </body>
+</html>
