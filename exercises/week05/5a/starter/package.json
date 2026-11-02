@@ -1,0 +1,9 @@
+{
+  "name": "wd-week05-5a",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 5a — JavaScript values & functions. Run the script with Node.",
+  "scripts": {
+    "start": "node script.js"
+  }
+}
