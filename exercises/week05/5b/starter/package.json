@@ -1,0 +1,10 @@
+{
+  "name": "wd-week05-5b",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Block 5b — objects, arrays, closures, classes & modules. Run with Node.",
+  "scripts": {
+    "start": "node main.js"
+  }
+}
