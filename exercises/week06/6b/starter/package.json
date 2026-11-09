@@ -1,0 +1,12 @@
+{
+  "name": "wd-week06-6b",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 6b — interactive to-do list. Runs a small static server for local preview.",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
