@@ -1,0 +1,12 @@
+{
+  "name": "wd-week06-6a",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block 6a — the DOM. Runs a small static server for local preview.",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

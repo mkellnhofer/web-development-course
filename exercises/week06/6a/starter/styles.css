@@ -1,0 +1,23 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #14161b;
+}
+
+.status { color: #6b7280; }
+
+/* add this class from JS to make the status stand out */
+.highlight {
+  background: #fff1ec;
+  color: #c2482a;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+/* add this class to a list item from JS */
+li.done {
+  text-decoration: line-through;
+  color: #6b7280;
+}
